@@ -1,0 +1,4 @@
+<app-player-form> 
+  (playerCreated)="addPlayer($event)"> 
+</app-player-form>
+<app-player *ngFor="let player of players" [data]="player"></app-player>
